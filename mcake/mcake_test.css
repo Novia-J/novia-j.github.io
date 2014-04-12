@@ -1,0 +1,365 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+#top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.top_bg {
+	background-image: url("top_bg.jpg");
+	height: 30px;
+}
+
+.login {
+	background-color: #160e0c;
+	height: 72px;
+	color: #666666;
+}
+
+.login ul {
+	list-style:none;
+	margin-right: 200px;
+}
+
+.login ul li {
+	float: right;
+	margin-right: 30px;
+	margin-top: 35px;
+}
+
+
+.navi {
+	background-color: #541600;
+	height: 100px;
+}
+
+.navi_left {
+	width: 42.5%;
+	float: left;
+}
+
+.navi_left ul {
+	margin-top: 50px;
+}
+
+.navi_left ul li {
+	float: right;
+	margin-right: 100px;
+	color: white;
+}
+
+.navi_logo {
+	width: 14%;
+	float: left;
+	background-image: url("logo.png");
+	height: 170px;
+	margin-top: -38.5px;
+}
+
+.navi_logo img {
+	margin-top: 60px;
+	margin-left: -25px;
+}
+
+.navi_right {
+	width: 42.5%;
+	float: left;
+}
+
+.navi_right ul {
+	margin-top: 50px;
+}
+.navi_right ul li{
+	margin-left: 100px;
+	float: left;
+	color: white;
+}
+
+#main {
+	top: 202px;
+	position: relative;
+}
+
+.main_1 {
+	background-image: url("intro1.jpg");
+	height: 860px;
+	overflow: hidden;
+}
+
+.main_logo{
+	/*padding-top: 10%;
+	padding-left: 42%;*/
+}
+
+.main1_text {
+	color: white;
+	font-size: 12px;
+	/*padding-top: 5%;
+	padding-left: 39%;*/
+}
+
+.main_2{
+	background-image: url("intro2.jpg");
+	height: 860px;
+	overflow: hidden;
+}
+
+.maxim img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 120px;
+}
+
+.main2_text {
+	width: 35%;
+	/* padding-top: 100px;
+	padding-left: 120px;*/
+}
+
+.content {
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.main_3 {
+	background-image: url("intro3.jpg");
+	height: 860px;
+}
+
+
+.main3_text ,  .main4_text{
+	background-image: url("intro3_bg.png");
+	width: 55%;
+	position: relative;
+	top: 40%;
+	left: 25%;
+}
+
+.main3_text p , .main4_text p{
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+	padding:20px 20px 20px 20px;
+}
+
+.paris {
+	position: relative;
+	top: 37%;
+	left: 16%;
+}
+
+.shanghai {
+	position: relative;
+	top: 45%;
+	left: 47%;
+}
+
+.main_4 {
+	background-image: url("intro4.jpg");
+	height: 860px;
+}
+
+.main_5 {
+	background-image: url("horizontal_1.jpg");
+	height: 860px;
+	position: relative;
+}
+
+.detail_0 {
+	background-image: url("detail_0.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.detail_7 {
+	background-image: url("detail_7.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.detail_7_1 {
+	background-image: url("detail_7_1.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+
+.detail_8 {
+	background-image: url("detail_8.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.detail_6 {
+	background-image: url("detail_6.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.detail_1 {
+	background-image: url("detail_1.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 25%;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.7);
+}
+
+.detail_2 {
+	background-image: url("detail_2.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.main_6 {
+	background-image: url("outro_1.jpg");
+	height: 800px;
+	overflow: hidden;
+}
+
+.outro_1_title {
+	padding-left: 45%;
+	padding-top: 10%;
+}
+
+.main6_text {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.main_7 {
+	background-image: url("outro_2.jpg");
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.outro_2_1 {
+	position: absolute;
+	top: 18%;
+	left: 16%;
+}
+
+.outro_2_s1 {
+	position: absolute;
+	//top: 18%;
+	left: 64%;
+}
+
+.outro_2_s2_ico {
+	left: 2%;
+	z-index: 2;
+}
+
+.outro_2_s2 {
+	position: absolute;
+	top: 65.5%;
+	left: 2%;
+}
+
+.outro_2_2 {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+}
+
+.main_8 {
+	background-image: url("outro_3.jpg");
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.outro_3_s1_ico1 {
+	//position: absolute;
+	//top: 9%;
+	left: 5%;
+	z-index: 2;
+}
+
+.outro_3_s1 {
+	//position: absolute;
+	//top: 14%;
+	left: 10%;
+}
+
+.outro_3_2 {
+	position: absolute;
+	top: 2%;
+	left: 58%;
+	z-index: 2;
+}
+
+.outro_3_title {
+	//position: absolute;
+	//top: 45%;
+	left: 38%;
+}
+
+.outro_3_1 {
+	position: absolute;
+	top: 60%;
+	left: 0%;
+}
+
+.outro_3_s2 {
+	position: absolute;
+	top: 67%;
+	left: 43%;
+}
+
+#footer {
+	position: fixed;
+	top: 90%;
+	width: 100%;
+	z-index: 21;
+}
+
+.foot {
+	text-align: center;
+}
+
+.bottom_logo{
+	width: 16px;
+	height: 16px;
+	background-image: url("navBubbleEmpty.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.bottom_logo:hover{
+	background-image: url("navBubbleHover.png");
+}
+
+.bottom_logo:active{
+	background-image: url("navBubbleActive.png");
+}
+
+
+
+
